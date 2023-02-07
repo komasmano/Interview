@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roles</title>
+
+<style>
+
+#display
+{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+}
+
+#stusignup, #mastersignup
+{
+    display: none;
+}
+
+#button
+{
+    margin-top: 50px;
+}
+
+#table1
+{
+    margin-top: 50px;
+}
+
+
+#th, .td1
+{
+    border: 2px solid black;
+    width: 200px;
+}
+
+</style>
+
+
+</head>
+<body>
+
+    <div id="display">
+
+<!-- signin -->
+
+    <section>
+        <div id="signin">
+<table>
+    <tr>
+        <td>
+            Username
+        </td>
+        <td>
+            <input type="text" name="username" id="">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Password
+        </td>
+        <td>
+            <input type="text" name="password" id="">
+        </td>
+    </tr>
+<tr>
+    <td>
+        <button id="button1" onclick="function1()">signin</button>
+    </td>
+</tr>
+
+</table>
+        </div>
+    </section>
+<!-- signin -->
+
+<!-- student signup -->
+    <section>
+        <div id="stusignup">
+<table>
+    <tr>
+        <td>
+            Username
+        </td>
+        <td>
+            <input type="text" name="susername" id="suser">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Password
+        </td>
+        <td>
+            <input type="text" name="spassword" id="spswd">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            email_id
+        </td>
+        <td>
+            <input type="text" name="semail" id="semail">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            student_id
+        </td>
+        <td>
+            <input type="text" name="stuid" id="stuid">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Role
+        </td>
+        <td>
+            <input type="text" name="stuid" id="srole" value="student">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button id="button2">submit</button>
+        </td>
+    </tr>
+</table>
+        </div>
+    </section>
+<!-- student signup -->
+
+<!-- master signup -->
+<section>
+        <div id="mastersignup">
+<table>
+    <tr>
+        <td>
+            Username
+        </td>
+        <td>
+            <input type="text" name="susername" id="muser">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Password
+        </td>
+        <td>
+            <input type="text" name="spassword" id="mpswd">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            email_id
+        </td>
+        <td>
+            <input type="text" name="semail" id="memail">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Master_id
+        </td>
+        <td>
+            <input type="text" name="stuid" id="masid">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Role
+        </td>
+        <td>
+            <input type="text" name="stuid" id="mrole" value="Master">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button id="button3">submit</button>
+        </td>
+    </tr>
+</table>
+        </div>
+    </section>
+    <!-- master signup -->
+</div>
+</div>
+<div id="button">
+    <button id="but1" onclick="fun1()">SIGNIN</button>
+    <button id="but2" onclick="fun2()">student SIGNUP</button>
+    <button id="but3" onclick="fun3()">master SIGNUP</button>
+    </div>
+
+    <div>
+
+        <table id="table1">
+            <th>
+                <td id="username" class="td1">username</td>
+                <td id="pswd" class="td1">password</td>
+                <td id="mail" class="td1">email_id</td>
+                <td id="id" class="td1">id</td>
+                <td id="role" class="td1">Role</td>
+            </th>
+        </table>
+        <div id="table2">
+
+        </div>
+    </div>
+
+    <script src="../JS/Roles.js"></script>
+</body>
+</html>
